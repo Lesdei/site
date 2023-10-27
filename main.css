@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 96px;
+}
+
+.photo {
+	width: calc(45% - 20px);
+	height: calc((70vh) / 16 * 9);
+	background: darkred;
+	margin: 30px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+	transition: all 1.5s ease;
+}
+
+.photo:hover {
+	transform: rotate(360deg) scale(1.2);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+.photo1 {
+	background-image: url(../img/1.jpg);
+}
+
+.photo2 {
+	background-image: url(../img/2.jpg);
+}
+
+.photo3 {
+	background-image: url(../img/3.jpg);
+}
+
+.photo4 {
+	background-image: url(../img/4.jpeg);
+}
