@@ -41,17 +41,17 @@ h1 {
 }
 
 .photo1 {
-	background-image: url(../img/1.jpg);
+	background-image: url(1.jpg);
 }
 
 .photo2 {
-	background-image: url(../img/2.jpg);
+	background-image: url(2.jpg);
 }
 
 .photo3 {
-	background-image: url(../img/3.jpg);
+	background-image: url(3.jpg);
 }
 
 .photo4 {
-	background-image: url(../img/4.jpeg);
+	background-image: url(4.jpeg);
 }
